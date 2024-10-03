@@ -175,7 +175,6 @@ section {
 }
 
 .section_text{
-    align-self: center;
     text-align: center;
 }
 
@@ -194,9 +193,10 @@ section {
     font-size: 1rem;
     margin-bottom: 1rem;
 }
-.title{
-    font-size: 3rem;
+.title1{
+    font-size: 30px;
     text-align: center;
+    margin-top: 10px;
     font-weight: bold;
 }
 
@@ -212,7 +212,6 @@ section {
 .icon{
     cursor: pointer;
     height: 2rem;
-    margin-top: 10px;
 }
 /*button*/
 
@@ -338,5 +337,20 @@ article {
 article .icon {
   cursor: default;
 }
+.applet-flex-container{
+    align-self: center;
+     display:flex;
+     justify-content: center;
+     margin-top: 2rem;
+     width: 80%;
+}
+
+.applet-flex-container > div{
+    margin-left: 2rem;
+    margin-left: .5rem;
+ }
+ .btn btn-primary{
+    margin-top: 20px;
+ }
 
   
