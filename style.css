@@ -347,3 +347,12 @@ article .icon {
     margin-top: 20px;
     margin-bottom: 3px;
 }
+.applet-container{
+    background-color: rgb(255, 255, 255);
+    border: 2px solid;
+    text-align: center;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+
+}
