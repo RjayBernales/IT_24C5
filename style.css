@@ -7,7 +7,7 @@
     padding: 0;
 }
 body{
-    background-image: url('assets/bg.jpg');
+    background-image: url('assets/background-graphics-with-light-purple-white-black-gradients-use-designs-for-web-pages-apps-mobile-text-backgrounds-screens-wallpapers-decorations-and-art-design-elements-photo\ \(1\).jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -21,6 +21,7 @@ html{
 
 p{
     color: rgb(85, 85, 85);
+    font-weight: bold;
 }
 
 /* Transition */
@@ -62,7 +63,7 @@ a:hover{
 }
 
 .logo{
-    font-size: 2rem;
+    font-size: 3rem;
 }
 
 .logo:hover{
@@ -222,11 +223,11 @@ section {
     font-weight: 600;
     transition: all 300ms ease;
     padding: 1rem;
-    width: 8rem;
+    width: 10rem;
     border-radius: 2rem;
 }
 .btn-color-1,btn_color-2{
-    border: rgb(53, 53, 53);
+    border: rgb(255, 255, 255);
 }
 .btn-color-1:hover
 ,btn-color-2:hover{
@@ -333,5 +334,46 @@ article {
 article .icon {
   cursor: default;
 }
+.form{
+    display: flex;
+    margin-left: 90px;
+    width: 100rem;
+    align-self: center;
+}
+.d-flex{
+    display: flex;
+    width: 80rem;
+    margin: 200px;
+    margin-top: 20px;
+    margin-bottom: 3px;
+}
+.applet-container{
+    background-color: rgb(255, 255, 255);
+    border: 2px solid;
+    text-align: center;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+}
+.container-fluid{
+    align-items: end;
+    margin-right: 30px;
+}
+.title{
+    display: flex;
+    justify-content: center;
 
-  
+}
+.applet-flex-container{
+    display: flex;
+    justify-content: center;
+    margin-left: 3rem;
+}
+.applet-flex-container > div{
+    margin-left: 2rem;
+    text-align: center;
+}
+.btn-primary{
+    justify-content: center;
+    text-align: center;
+}
