@@ -55,6 +55,21 @@
         <input type="text" id="textbox" placeholder="Type Something Here" oninput="updateDisplay()">
         <br>
         <br>
+
+        <h3>Click Button Event</h3>
+        <button class="btn btn-primary" onclick="showAlert()">Display Alert</button>
+        
+        <script>
+            function updateDisplay(){
+                var textbox = document.getElementById('textbox');
+            }
+
+            function showAlert(){
+                alert("Hello");
+                var textbox =getElementById('textbox');
+                alert("Hello " + textbox.value);
+            }
+        </script>
     </div>
 </body>
 </html>
