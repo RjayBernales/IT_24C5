@@ -370,8 +370,10 @@ article .icon {
     margin-left: 3rem;
 }
 .applet-flex-container > div{
-    margin-left: .5rem;
+    margin-left: 2rem;
+    text-align: center;
 }
 .btn-primary{
     justify-content: center;
+    text-align: center;
 }
